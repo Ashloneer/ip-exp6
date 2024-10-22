@@ -1,0 +1,37 @@
+.education {
+  background-color: #121212;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 8px;
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow wrapping to the next line on smaller screens */
+  gap: 1.5rem; /* Space between cards */
+}
+
+.education-item {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 0; /* Remove margin to control spacing with gap */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+  flex: 1 1 200px; /* Make items flexible and set a minimum width */
+}
+
+.education-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.4);
+}
+
+.education-item h3 {
+  color: #3498db;
+  margin-bottom: 0.5rem;
+}
+
+.education-item p {
+  margin: 0.25rem 0;
+  color: #e0e0e0;
+}
+.edu{
+  display: block;
+}

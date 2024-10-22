@@ -1,0 +1,39 @@
+.contact {
+  padding: 2rem;
+  background-color: #1e1e1e; /* Darker background color */
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.contact h2 {
+  color: #ffffff; /* White text color for heading */
+  margin-bottom: 1rem;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #555; /* Darker border color */
+  border-radius: 4px;
+  min-height: 100px;
+  background-color: #2a2a2a; /* Darker background for textarea */
+  color: #e0e0e0; /* Light gray text color for textarea */
+}
+
+.contact button {
+  padding: 0.5rem 1rem;
+  background-color: #3498db; /* Brighter button color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background-color: #2980b9; /* Darker hover color */
+}

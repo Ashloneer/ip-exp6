@@ -1,0 +1,8 @@
+.footer {
+  text-align: center;
+  padding: 1rem;
+  background: linear-gradient(135deg, #4e0f6b 0%, #1a2b6f 100%); /* Darker gradient colors */
+  color: #fff;
+  border-radius: 10px;
+  margin-top: 2rem;
+}

@@ -1,0 +1,16 @@
+.about {
+  padding: 2rem;
+  background-color: #1e1e1e; /* Darker background color */
+  border-radius: 8px;
+  margin: 2rem 0;
+}
+
+.about h2 {
+  color: #ffffff; /* White text color for heading */
+  margin-bottom: 1rem;
+}
+
+.about p {
+  line-height: 1.6;
+  color: #e0e0e0; /* Light gray text color for paragraphs */
+}
